@@ -1,8 +1,7 @@
 # Consensus_Algo
 Consider the system Ax=b 
 where A is a 1000x1000 random matrix
-4 agents, each operating on a 250 x 1000 submatrix and the update equation in the paper is used.
-https://ieeexplore.ieee.org/document/7063919
+4 agents, each operating on a 250 x 1000 submatrix and the update equation in the paper [A Distributed Algorithm for Solving a Linear Algebraic Equation](https://ieeexplore.ieee.org/document/7063919) is used.
 
 At every iteration,I've plotted ||Axi[n] -b||2 where xi[n] is the estimate of agent 'i' for the n th iteration to check if the estimates actually converge to the true solution to Ax=b.
 
