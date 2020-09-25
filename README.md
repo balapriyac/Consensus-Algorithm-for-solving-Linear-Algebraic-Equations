@@ -1,4 +1,4 @@
-# Consensus_Algo
+# Consensus Algorithm to solve Linear ALgebraic Equations
 Consider the system Ax=b 
 where A is a 1000x1000 random matrix
 4 agents, each operating on a 250 x 1000 submatrix and the update equation in the paper [A Distributed Algorithm for Solving a Linear Algebraic Equation](https://ieeexplore.ieee.org/document/7063919) is used.
